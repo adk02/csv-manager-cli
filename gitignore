@@ -1,0 +1,49 @@
+# .gitignore for CSV Manager CLI
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.env/
+.venv/
+
+env/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Temporary files
+*.tmp
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE / Editor directories
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Backup files
+*~
+
+# Coverage reports
+.coverage
+htmlcov/
+.coverage.*
+
+# pytest cache
+.pytest_cache/
+
+# Local CSV data and backups
+/Documents/CSVManager/data.csv
+/Documents/CSVManager/backups/
+/Documents/CSVManager/data.json
